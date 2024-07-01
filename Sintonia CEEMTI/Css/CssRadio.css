@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: #332e72;
     color: #28e2cc;
     text-align: center;
     padding: 4%;
@@ -79,28 +79,39 @@ img{
     top: 3.5%;
 }
 .direcoes{
-    border: 2px solid black;
     width: 70%;
-    height: 14%;
+    height: 15.7%;
     position: absolute;
     left: 25%;
-    top: 1%;
+    top: 0.01%;
 }
-.blog{
+.promoções{
     position: absolute;
-    border: 2px solid black;
     width: 15%;
     height: 100%;
     text-align: center;
     font: size 70%;
 }
-.blog:hover{
+.promoções:hover{
     transform: 0.3s;
     background-color: #fff;
+    height: 102.6%;
 }
 a{
-    color: black;
+    color: #fff;
     position: relative;
-    top: 35%;
+    display: block;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
+    font-size: 25px;
+    transition: 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
 }
