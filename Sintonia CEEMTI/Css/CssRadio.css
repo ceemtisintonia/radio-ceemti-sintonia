@@ -2,14 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #28e2cc;;
+    background-color: #28e2cc;
+    ;
 }
 
 header {
     background-color: #332e72;
     color: #28e2cc;
     text-align: center;
-    padding: 4%;
+    padding: 2%;
 }
 
 nav ul {
@@ -38,32 +39,6 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.conteudo {
-    text-align: center;
-    padding: 50px;
-}
-
-.conteudo2 {
-    text-align: left;
-    display: inline-block;
-    padding: 25px 500px;
-    border: 2px solid black;
-}
-
-.conteudo3 {
-    text-align: center;
-    padding: 25px 500px;
-    display: inline-block;
-    border: 2px solid black;
-}
-
-.conteudo4 {
-    text-align: center;
-    padding: 25px 500px;
-    display: inline-block;
-    border: 2px solid black;
-}
-
 footer {
     background-color: #332e72;
     color: #fff;
@@ -73,45 +48,98 @@ footer {
     bottom: 0;
     width: 100%;
 }
-img{
-    position:absolute;
+
+img {
+    width: 6%;
+    position: absolute;
     left: 10%;
-    top: 3.5%;
+    top: 1%;
 }
-.direcoes{
+
+.Direções {
     width: 70%;
-    height: 15.7%;
+    height: 7.9%;
     position: absolute;
     left: 25%;
     top: 0.01%;
 }
-.promoções{
-    position: absolute;
-    width: 15%;
-    height: 100%;
-    text-align: center;
-    font: size 70%;
-}
-.promoções:hover{
-    transform: 0.3s;
-    background-color: #fff;
-    height: 102.6%;
-}
-a{
+
+a {
     color: #fff;
     position: relative;
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     transition: 500ms linear;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     text-transform: uppercase;
 }
-a:hover{
+
+a:hover {
     color: black;
+}
+
+.promoções {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+}
+
+.promoções:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Programação {
+    display: inline-block;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 15%;
+}
+
+.Programação:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Novidades {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 30%;
+}
+
+.Novidades:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
+}
+
+.Palco {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font: size 70%;
+    left: 45%;
+}
+
+.Palco:hover {
+    transform: 0.3s;
+    background-color: #fff;
+    height: 102.6%;
 }
