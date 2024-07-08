@@ -4,11 +4,12 @@
     <title>Rádio</title>
     <link rel="stylesheet" href="Css/CssRadio.css">
     <meta charset="UTF-8">
+    <script src="slide.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="Fotos/Logo_para_eletiva_da_Radio-removebg-preview.png" width="10%">
+        <img src="Fotos/Logo Rádio.png" width="10%">
         <div class="Direções">
             <div class="Promoções">
                 <a href="Promoções.html">Promoções</a>
@@ -24,6 +25,43 @@
             </div>
         </div>
     </header>
+    <section class="slider">
+        <div class="slider-content">
+
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="Fotos/Logo Rádio.png" alt="slide 1">
+                <img class="img-mobile" src="Fotos/Logo Rádio.png" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="Fotos/download.jfif" alt="slide 2">
+                <img class="img-mobile" src="Fotos/download.jfif" alt="slide 2">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="Fotos/Mouse.jfif" alt="slide 3">
+                <img class="img-mobile" src="Fotos/Mouse.jfif" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
     <footer>
         <p>&copy; Rádio Escolar Ceemti 2024</p>
     </footer>
