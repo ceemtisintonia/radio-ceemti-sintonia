@@ -81,10 +81,10 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #332e72;
 }
 
-.promoções {
+.Programação {
     position: absolute;
     width: 15%;
     height: 100%;
@@ -92,13 +92,13 @@ a:hover {
     font: size 70%;
 }
 
-.promoções:hover {
+.Programação:hover {
     transform: 0.3s;
     background-color: #fff;
     height: 102.6%;
 }
 
-.Programação {
+.Sobre {
     display: inline-block;
     position: absolute;
     width: 15%;
@@ -108,13 +108,13 @@ a:hover {
     left: 15%;
 }
 
-.Programação:hover {
+.Sobre:hover {
     transform: 0.3s;
     background-color: #fff;
     height: 102.6%;
 }
 
-.Novidades {
+.Podcasts {
     position: absolute;
     width: 15%;
     height: 100%;
@@ -123,13 +123,13 @@ a:hover {
     left: 30%;
 }
 
-.Novidades:hover {
+.Podcasts:hover {
     transform: 0.3s;
     background-color: #fff;
     height: 102.6%;
 }
 
-.Palco {
+.Peça {
     position: absolute;
     width: 15%;
     height: 100%;
@@ -138,7 +138,7 @@ a:hover {
     left: 45%;
 }
 
-.Palco:hover {
+.Peça:hover {
     transform: 0.3s;
     background-color: #fff;
     height: 102.6%;
